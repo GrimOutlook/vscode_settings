@@ -19,7 +19,7 @@
     "editor.tabSize": 2
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
@@ -95,10 +95,6 @@
   "files.autoSave": "afterDelay",
   "files.trimTrailingWhitespace": true,
   "firedbg.showWelcome": false,
-  "git-identity.authors": [
-    "Dominic Grimaldi dominic.j.grimaldi@gmail.com",
-    "Dominic Grimaldi dominic.j.grimaldi2.ctr@army.mil"
-  ],
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -156,5 +152,8 @@
   "workbench.panel.showLabels": false,
   "workbench.startupEditor": "none",
   "xml.foldings.includeClosingTagInFold": true,
-  "xml.symbols.maxItemsComputed": 50000
+  "xml.symbols.maxItemsComputed": 50000,
+  "remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.vscode-pull-request-github"
+  ]
 }
